@@ -13,6 +13,7 @@
 		11063F691EC0EECC0033EE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11063F681EC0EECC0033EE6D /* Assets.xcassets */; };
 		11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		113695D81EC1151400CA6C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113695D61EC1151400CA6C43 /* LaunchScreen.storyboard */; };
+		34E2438125B41C47004FE85E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E2438025B41C47004FE85E /* HomeViewController.swift */; };
 		34EC405225B3B880005EF7AD /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EC405125B3B880005EF7AD /* PlantTableViewCell.swift */; };
 		34EC405625B3E74F005EF7AD /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EC405525B3E74F005EF7AD /* Weather.swift */; };
 		34FC846F25B3A4AB005DCBC0 /* MyPlantDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 34FC846E25B3A4AB005DCBC0 /* MyPlantDetector.mlmodel */; };
@@ -27,6 +28,7 @@
 		11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		113695D71EC1151400CA6C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34DE7E2C25B3F4C1002CF6A1 /* Planti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E2438025B41C47004FE85E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		34EC405125B3B880005EF7AD /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
 		34EC405525B3E74F005EF7AD /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		34FC846E25B3A4AB005DCBC0 /* MyPlantDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyPlantDetector.mlmodel; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				11063F611EC0EECC0033EE6D /* AppDelegate.swift */,
 				11063F631EC0EECC0033EE6D /* ImageClassificationViewController.swift */,
+				34E2438025B41C47004FE85E /* HomeViewController.swift */,
 				34EC405525B3E74F005EF7AD /* Weather.swift */,
 				11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */,
 				34EC405125B3B880005EF7AD /* PlantTableViewCell.swift */,
@@ -174,6 +177,7 @@
 				11063F641EC0EECC0033EE6D /* ImageClassificationViewController.swift in Sources */,
 				34FC846F25B3A4AB005DCBC0 /* MyPlantDetector.mlmodel in Sources */,
 				11063F621EC0EECC0033EE6D /* AppDelegate.swift in Sources */,
+				34E2438125B41C47004FE85E /* HomeViewController.swift in Sources */,
 				34EC405625B3E74F005EF7AD /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
