@@ -22,6 +22,7 @@ class HomeViewController: UIViewController {
     
     var weather = [WeatherData]()
     var temperature: Temperature?
+    var displayTemp = Int()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +41,8 @@ class HomeViewController: UIViewController {
                 if let jsonMain = try? decoder.decode(TemperatureData.self, from: data) {
                     temperature = jsonMain.main
                     print(temperature)
-                    temperatureLabel.text = "\(temperature!.temp)"
+                    displayTemp = Int(temperature!.temp - 273.15)
+                    temperatureLabel.text = "\(displayTemp)"
                 }
                 return
             }
