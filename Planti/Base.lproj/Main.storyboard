@@ -118,13 +118,13 @@
                                 </items>
                             </toolbar>
                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TJ5-fY-hgK">
-                                <rect key="frame" x="7" y="689" width="137.5" height="60.5"/>
+                                <rect key="frame" x="7" y="688.5" width="137.5" height="61"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XLf-id-yz4">
-                                    <rect key="frame" x="0.0" y="0.0" width="137.5" height="60.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="138" height="61"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Add a photo." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmt-pk-Cvs">
-                                            <rect key="frame" x="20" y="20" width="97.5" height="20.5"/>
+                                            <rect key="frame" x="20.5" y="20" width="97.5" height="20.5"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                             <color key="textColor" systemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
